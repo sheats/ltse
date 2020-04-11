@@ -1,4 +1,4 @@
-Time stamp,broker,sequence id,type,Symbol,Quantity,Price,Side
+timestamp,broker,sequence_id,type,symbol,quantity,price,side
 10/5/2017 10:00:00,Fidelity,1,2,BARK,100,1.195,Buy
 10/5/2017 10:00:01,Charles Schwab,1,2,CARD,200,6.855,Sell
 10/5/2017 10:00:02,AXA Advisors,1,K,BRIC,5000,30.7,Sell
