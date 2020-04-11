@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import csv
+from .validator import TradeValidator
 
 
 def _load_text_file(path):
@@ -32,6 +33,9 @@ def main():
     valid_symbols = load_symbols()
     permitted_brokers = load_brokers()
     trades = load_trades()
+    validator = TradeValidator(valid_symbols, permitted_brokers)
+    for trade in trades:
+        validator.validate_trade(trade)
     from pprint import pprint
 
     pprint(valid_symbols)
