@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
 
+class MissingDataException(Exception):
+    pass
+
+
 class InvalidSymbolException(Exception):
     pass
 
@@ -15,9 +19,11 @@ class TradeValidator:
         self.brokers = [b.upper() for b in brokers]
 
     def validate_trade(self, trade):
+        if not trade.is_valid():
+            raise MissingDataException()
 
-        if not trade.symbol or str(trade.symbol).strip().upper() not in self.symbols:
+        if trade.symbol not in self.symbols:
             raise InvalidSymbolException()
 
-        if not trade.broker or str(trade.broker).strip().upper() not in self.brokers:
-            raise InvalidBrokerException
+        if trade.broker not in self.brokers:
+            raise InvalidBrokerException()

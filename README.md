@@ -9,3 +9,6 @@ pip install -r requirements.txt
 ./main.py
 ```
 
+Questions:
+    * Care about data validation?
+
