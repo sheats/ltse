@@ -22,7 +22,6 @@ source ./.env/bin/activate
 ### Questions:
     * Care about data validation?
     * Extra credit -- I don't have a favorite "message format" -- what else can you tell me about the other system?
-    * UTC TZ for timestamps?
     * Requirements don't say anything about invalid broker names -- will treat same as invalid symbols
     * Also, firms.txt is missing newline between two firms: Wells Fargo AdvisorsWaddell & Reed -- should I go ahead and fix that?
 
