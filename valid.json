@@ -1,0 +1,5022 @@
+[
+    {
+        "timestamp": "2017-10-05T10:00:00",
+        "broker": "Fidelity",
+        "sequence_id": 1,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 1,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:02",
+        "broker": "AXA Advisors",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:03",
+        "broker": "National Planning Corporation",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:04",
+        "broker": "Edward Jones",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:05",
+        "broker": "Raymond James Financial",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:06",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:08",
+        "broker": "LPL Financial",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:40",
+        "broker": "Fidelity",
+        "sequence_id": 2,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:41",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 2,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:41",
+        "broker": "Fidelity",
+        "sequence_id": 3,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:42",
+        "broker": "Charles Schwab",
+        "sequence_id": 3,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:43",
+        "broker": "Edward Jones",
+        "sequence_id": 2,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:43",
+        "broker": "TD Ameritrade",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:44",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 2,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:44",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:45",
+        "broker": "TD Ameritrade",
+        "sequence_id": 2,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:45",
+        "broker": "Raymond James Financial",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:46",
+        "broker": "Raymond James Financial",
+        "sequence_id": 2,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:46",
+        "broker": "AXA Advisors",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:47",
+        "broker": "AXA Advisors",
+        "sequence_id": 2,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:48",
+        "broker": "LPL Financial",
+        "sequence_id": 2,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:49",
+        "broker": "National Planning Corporation",
+        "sequence_id": 2,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:49",
+        "broker": "Edward Jones",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:50",
+        "broker": "National Planning Corporation",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:00:51",
+        "broker": "LPL Financial",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:32",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 3,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:41",
+        "broker": "Edward Jones",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:49",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 4,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:51",
+        "broker": "Charles Schwab",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:52",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:52",
+        "broker": "LPL Financial",
+        "sequence_id": 4,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:53",
+        "broker": "AXA Advisors",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:54",
+        "broker": "Raymond James Financial",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:01:58",
+        "broker": "TD Ameritrade",
+        "sequence_id": 4,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:00",
+        "broker": "Fidelity",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:00",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 5,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:02",
+        "broker": "TD Ameritrade",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:03",
+        "broker": "Raymond James Financial",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:04",
+        "broker": "AXA Advisors",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:05",
+        "broker": "LPL Financial",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:06",
+        "broker": "Charles Schwab",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:07",
+        "broker": "Edward Jones",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:09",
+        "broker": "Raymond James Financial",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:10",
+        "broker": "Fidelity",
+        "sequence_id": 6,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:11",
+        "broker": "Edward Jones",
+        "sequence_id": 6,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:12",
+        "broker": "National Planning Corporation",
+        "sequence_id": 5,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:14",
+        "broker": "Charles Schwab",
+        "sequence_id": 6,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:16",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:20",
+        "broker": "AXA Advisors",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:24",
+        "broker": "LPL Financial",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:02:25",
+        "broker": "National Planning Corporation",
+        "sequence_id": 6,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:19",
+        "broker": "AXA Advisors",
+        "sequence_id": 7,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:20",
+        "broker": "LPL Financial",
+        "sequence_id": 7,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:30",
+        "broker": "Fidelity",
+        "sequence_id": 7,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:31",
+        "broker": "Charles Schwab",
+        "sequence_id": 7,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:32",
+        "broker": "Edward Jones",
+        "sequence_id": 7,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:33",
+        "broker": "TD Ameritrade",
+        "sequence_id": 7,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:34",
+        "broker": "Raymond James Financial",
+        "sequence_id": 7,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:35",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 8,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:39",
+        "broker": "National Planning Corporation",
+        "sequence_id": 7,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:03:41",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 7,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:00",
+        "broker": "AXA Advisors",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:09",
+        "broker": "LPL Financial",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:10",
+        "broker": "Fidelity",
+        "sequence_id": 8,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:10",
+        "broker": "Edward Jones",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:11",
+        "broker": "Charles Schwab",
+        "sequence_id": 8,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:12",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:15",
+        "broker": "TD Ameritrade",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:18",
+        "broker": "Raymond James Financial",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:26",
+        "broker": "National Planning Corporation",
+        "sequence_id": 8,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:04:45",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:00",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 11,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:10",
+        "broker": "Fidelity",
+        "sequence_id": 9,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "Charles Schwab",
+        "sequence_id": 9,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "Edward Jones",
+        "sequence_id": 9,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 9,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "Raymond James Financial",
+        "sequence_id": 9,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "AXA Advisors",
+        "sequence_id": 9,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "LPL Financial",
+        "sequence_id": 9,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "National Planning Corporation",
+        "sequence_id": 9,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 12,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "Charles Schwab",
+        "sequence_id": 10,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "Edward Jones",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "TD Ameritrade",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "Raymond James Financial",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "AXA Advisors",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "LPL Financial",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:05:24",
+        "broker": "National Planning Corporation",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:03",
+        "broker": "Fidelity",
+        "sequence_id": 10,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:04",
+        "broker": "Fidelity",
+        "sequence_id": 11,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "Charles Schwab",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "TD Ameritrade",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "Raymond James Financial",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "AXA Advisors",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "LPL Financial",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "National Planning Corporation",
+        "sequence_id": 11,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:06",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "Charles Schwab",
+        "sequence_id": 12,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 12,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "TD Ameritrade",
+        "sequence_id": 12,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "Raymond James Financial",
+        "sequence_id": 12,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "AXA Advisors",
+        "sequence_id": 12,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "LPL Financial",
+        "sequence_id": 12,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "National Planning Corporation",
+        "sequence_id": 12,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:58",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 15,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:06:59",
+        "broker": "Fidelity",
+        "sequence_id": 12,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:10",
+        "broker": "Fidelity",
+        "sequence_id": 13,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "Charles Schwab",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "Edward Jones",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "Raymond James Financial",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "AXA Advisors",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "LPL Financial",
+        "sequence_id": 13,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 16,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:07:51",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:08:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:08:22",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:00",
+        "broker": "Fidelity",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "Charles Schwab",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "Edward Jones",
+        "sequence_id": 14,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 14,
+        "trade_type": "K",
+        "symbol": "GLOO",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "TD Ameritrade",
+        "sequence_id": 14,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "Raymond James Financial",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "AXA Advisors",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "LPL Financial",
+        "sequence_id": 14,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "National Planning Corporation",
+        "sequence_id": 14,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:04",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 20,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:24",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 21,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:09:54",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "Charles Schwab",
+        "sequence_id": 15,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "Edward Jones",
+        "sequence_id": 15,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "TD Ameritrade",
+        "sequence_id": 15,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "Raymond James Financial",
+        "sequence_id": 15,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "AXA Advisors",
+        "sequence_id": 15,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "LPL Financial",
+        "sequence_id": 15,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:45",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 23,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:55",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 24,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:10:59",
+        "broker": "Fidelity",
+        "sequence_id": 15,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "Charles Schwab",
+        "sequence_id": 16,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "Edward Jones",
+        "sequence_id": 16,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 16,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "TD Ameritrade",
+        "sequence_id": 16,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "Raymond James Financial",
+        "sequence_id": 16,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "LPL Financial",
+        "sequence_id": 16,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "National Planning Corporation",
+        "sequence_id": 16,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:02",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:03",
+        "broker": "Fidelity",
+        "sequence_id": 16,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:10",
+        "broker": "Fidelity",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "Charles Schwab",
+        "sequence_id": 17,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "Edward Jones",
+        "sequence_id": 17,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 17,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "TD Ameritrade",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "Raymond James Financial",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "AXA Advisors",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "LPL Financial",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "National Planning Corporation",
+        "sequence_id": 17,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:11:51",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "Charles Schwab",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "TD Ameritrade",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "Raymond James Financial",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "AXA Advisors",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "LPL Financial",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "National Planning Corporation",
+        "sequence_id": 18,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:12:21",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 27,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:13:56",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 29,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:00",
+        "broker": "Fidelity",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "Edward Jones",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 19,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "LPL Financial",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 19,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:14:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:01",
+        "broker": "Fidelity",
+        "sequence_id": 20,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "Charles Schwab",
+        "sequence_id": 20,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "Edward Jones",
+        "sequence_id": 20,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 20,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "Raymond James Financial",
+        "sequence_id": 20,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "AXA Advisors",
+        "sequence_id": 20,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "LPL Financial",
+        "sequence_id": 20,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "National Planning Corporation",
+        "sequence_id": 20,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:15:02",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 31,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:16:02",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:16:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 33,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:00",
+        "broker": "Fidelity",
+        "sequence_id": 21,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "Edward Jones",
+        "sequence_id": 21,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 21,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "TD Ameritrade",
+        "sequence_id": 21,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "Raymond James Financial",
+        "sequence_id": 21,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "AXA Advisors",
+        "sequence_id": 21,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "LPL Financial",
+        "sequence_id": 21,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "National Planning Corporation",
+        "sequence_id": 21,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:03",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 34,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:22",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 35,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:17:34",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:00",
+        "broker": "Fidelity",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "Charles Schwab",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "Edward Jones",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "TD Ameritrade",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "Raymond James Financial",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "LPL Financial",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "National Planning Corporation",
+        "sequence_id": 22,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:18:05",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 37,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:30",
+        "broker": "Fidelity",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "Charles Schwab",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "Edward Jones",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 23,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "TD Ameritrade",
+        "sequence_id": 23,
+        "trade_type": "K",
+        "symbol": "GLOO",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "Raymond James Financial",
+        "sequence_id": 23,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "AXA Advisors",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "LPL Financial",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "National Planning Corporation",
+        "sequence_id": 23,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:35",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "Charles Schwab",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "Edward Jones",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "TD Ameritrade",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "Raymond James Financial",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "AXA Advisors",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "LPL Financial",
+        "sequence_id": 24,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:19:45",
+        "broker": "National Planning Corporation",
+        "sequence_id": 24,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:00",
+        "broker": "Fidelity",
+        "sequence_id": 24,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "Edward Jones",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 25,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "LPL Financial",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:20:41",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 41,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:00",
+        "broker": "Fidelity",
+        "sequence_id": 25,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "Edward Jones",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 26,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 26,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 26,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 26,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "LPL Financial",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:21:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 42,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:13",
+        "broker": "Fidelity",
+        "sequence_id": 26,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "Charles Schwab",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "Edward Jones",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "Raymond James Financial",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "AXA Advisors",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "LPL Financial",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "National Planning Corporation",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:22:14",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:00",
+        "broker": "Fidelity",
+        "sequence_id": 27,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 28,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "Edward Jones",
+        "sequence_id": 28,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 28,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 28,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 28,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 28,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "LPL Financial",
+        "sequence_id": 28,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 28,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:27",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:23:50",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 46,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:24:31",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 47,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:24:40",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:25:31",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:25:45",
+        "broker": "Transamerica Financial",
+        "sequence_id": 1,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:26:32",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:26:34",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 51,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:27:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 53,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:28:10",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 54,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:28:26",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 55,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:29:00",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 56,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:29:10",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 57,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:29:43",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 58,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:30:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 59,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:30:15",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 60,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:31:15",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 62,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:31:35",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 63,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:10",
+        "broker": "Fidelity",
+        "sequence_id": 28,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "Charles Schwab",
+        "sequence_id": 29,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "Edward Jones",
+        "sequence_id": 29,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 29,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 29,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "Raymond James Financial",
+        "sequence_id": 29,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "AXA Advisors",
+        "sequence_id": 29,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "LPL Financial",
+        "sequence_id": 29,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "National Planning Corporation",
+        "sequence_id": 29,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:11",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 64,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:32:41",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 65,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:20",
+        "broker": "Fidelity",
+        "sequence_id": 29,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "Charles Schwab",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "Edward Jones",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "TD Ameritrade",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "Raymond James Financial",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "AXA Advisors",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "LPL Financial",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "National Planning Corporation",
+        "sequence_id": 30,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:22",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 66,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:25",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 67,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:40",
+        "broker": "Fidelity",
+        "sequence_id": 30,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "Charles Schwab",
+        "sequence_id": 31,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "Edward Jones",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "TD Ameritrade",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "Raymond James Financial",
+        "sequence_id": 31,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "AXA Advisors",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "LPL Financial",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "National Planning Corporation",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:42",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 68,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:33:51",
+        "broker": "LPL Financial",
+        "sequence_id": 32,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:00",
+        "broker": "Fidelity",
+        "sequence_id": 31,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 32,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:34:02",
+        "broker": "Edward Jones",
+        "sequence_id": 33,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "Charles Schwab",
+        "sequence_id": 34,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "Edward Jones",
+        "sequence_id": 34,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 34,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "TD Ameritrade",
+        "sequence_id": 34,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "Raymond James Financial",
+        "sequence_id": 34,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "AXA Advisors",
+        "sequence_id": 34,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "National Planning Corporation",
+        "sequence_id": 34,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:05",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 71,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:35:24",
+        "broker": "Fidelity",
+        "sequence_id": 33,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:36:22",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 72,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:37:05",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 73,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:38:33",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 75,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:38:57",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 76,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:39:09",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 77,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:00",
+        "broker": "Fidelity",
+        "sequence_id": 34,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 35,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "Edward Jones",
+        "sequence_id": 35,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 35,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 35,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 35,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 35,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "LPL Financial",
+        "sequence_id": 35,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 35,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 79,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:40",
+        "broker": "Fidelity",
+        "sequence_id": 35,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "Charles Schwab",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "Edward Jones",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "TD Ameritrade",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "Raymond James Financial",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "AXA Advisors",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "LPL Financial",
+        "sequence_id": 36,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:40:41",
+        "broker": "National Planning Corporation",
+        "sequence_id": 36,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:50",
+        "broker": "Fidelity",
+        "sequence_id": 36,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "Charles Schwab",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "Edward Jones",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "TD Ameritrade",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "Raymond James Financial",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "AXA Advisors",
+        "sequence_id": 37,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "LPL Financial",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:41:51",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 81,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:00",
+        "broker": "Fidelity",
+        "sequence_id": 37,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "Edward Jones",
+        "sequence_id": 38,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 38,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "TD Ameritrade",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "Raymond James Financial",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "AXA Advisors",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "LPL Financial",
+        "sequence_id": 38,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "National Planning Corporation",
+        "sequence_id": 38,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:42:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 82,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:10",
+        "broker": "Fidelity",
+        "sequence_id": 38,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:11",
+        "broker": "Charles Schwab",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:11",
+        "broker": "Edward Jones",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:11",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:13",
+        "broker": "AXA Advisors",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:14",
+        "broker": "LPL Financial",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:15",
+        "broker": "National Planning Corporation",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:43:16",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 83,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:20",
+        "broker": "Fidelity",
+        "sequence_id": 39,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:21",
+        "broker": "Charles Schwab",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:22",
+        "broker": "Edward Jones",
+        "sequence_id": 40,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:23",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 40,
+        "trade_type": "K",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:24",
+        "broker": "TD Ameritrade",
+        "sequence_id": 40,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:25",
+        "broker": "Raymond James Financial",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:26",
+        "broker": "AXA Advisors",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:27",
+        "broker": "LPL Financial",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:28",
+        "broker": "National Planning Corporation",
+        "sequence_id": 40,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:44:29",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 84,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:00",
+        "broker": "Fidelity",
+        "sequence_id": 40,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:02",
+        "broker": "Raymond James Financial",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:03",
+        "broker": "TD Ameritrade",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:04",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:05",
+        "broker": "Edward Jones",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:07",
+        "broker": "National Planning Corporation",
+        "sequence_id": 41,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:08",
+        "broker": "LPL Financial",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:09",
+        "broker": "AXA Advisors",
+        "sequence_id": 41,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:45:10",
+        "broker": "Waddell & Reed",
+        "sequence_id": 1,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:01",
+        "broker": "Fidelity",
+        "sequence_id": 41,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:02",
+        "broker": "Edward Jones",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:03",
+        "broker": "TD Ameritrade",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:04",
+        "broker": "Raymond James Financial",
+        "sequence_id": 42,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:05",
+        "broker": "AXA Advisors",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:08",
+        "broker": "Charles Schwab",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:09",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:11",
+        "broker": "National Planning Corporation",
+        "sequence_id": 42,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:46:22",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 86,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:01",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 87,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:02",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 43,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:03",
+        "broker": "AXA Advisors",
+        "sequence_id": 43,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:04",
+        "broker": "National Planning Corporation",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:05",
+        "broker": "LPL Financial",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:06",
+        "broker": "Raymond James Financial",
+        "sequence_id": 43,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:07",
+        "broker": "TD Ameritrade",
+        "sequence_id": 43,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:08",
+        "broker": "Edward Jones",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:09",
+        "broker": "Charles Schwab",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:47:10",
+        "broker": "Fidelity",
+        "sequence_id": 42,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:48:08",
+        "broker": "Waddell & Reed",
+        "sequence_id": 2,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:10",
+        "broker": "Raymond James Financial",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:10",
+        "broker": "AXA Advisors",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:12",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 88,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:13",
+        "broker": "Edward Jones",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:14",
+        "broker": "Charles Schwab",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:16",
+        "broker": "Fidelity",
+        "sequence_id": 43,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:16",
+        "broker": "LPL Financial",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:49:18",
+        "broker": "National Planning Corporation",
+        "sequence_id": 44,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:20",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:21",
+        "broker": "Edward Jones",
+        "sequence_id": 45,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:22",
+        "broker": "Charles Schwab",
+        "sequence_id": 45,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:23",
+        "broker": "Fidelity",
+        "sequence_id": 44,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:24",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 89,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:25",
+        "broker": "National Planning Corporation",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:26",
+        "broker": "LPL Financial",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:27",
+        "broker": "AXA Advisors",
+        "sequence_id": 45,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:28",
+        "broker": "Raymond James Financial",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:50:29",
+        "broker": "TD Ameritrade",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:06",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 90,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:11",
+        "broker": "Raymond James Financial",
+        "sequence_id": 46,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 150,
+        "price": "39.10",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:12",
+        "broker": "TD Ameritrade",
+        "sequence_id": 46,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.86",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:13",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 46,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.20",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:14",
+        "broker": "Edward Jones",
+        "sequence_id": 46,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:15",
+        "broker": "Charles Schwab",
+        "sequence_id": 46,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:16",
+        "broker": "Fidelity",
+        "sequence_id": 45,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:18",
+        "broker": "National Planning Corporation",
+        "sequence_id": 46,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:51:20",
+        "broker": "LPL Financial",
+        "sequence_id": 46,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 47,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 600,
+        "price": "140.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:03",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 47,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:04",
+        "broker": "Raymond James Financial",
+        "sequence_id": 47,
+        "trade_type": "K",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:05",
+        "broker": "TD Ameritrade",
+        "sequence_id": 47,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.05",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:06",
+        "broker": "Edward Jones",
+        "sequence_id": 47,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 400,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:07",
+        "broker": "Fidelity",
+        "sequence_id": 46,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 5000,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:09",
+        "broker": "National Planning Corporation",
+        "sequence_id": 47,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 800,
+        "price": "98.76",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:10",
+        "broker": "LPL Financial",
+        "sequence_id": 47,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 400,
+        "price": "88.30",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:52:52",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 91,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 200,
+        "price": "76.48",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:53:20",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 92,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 100000,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:01",
+        "broker": "Edward Jones",
+        "sequence_id": 48,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 200,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:03",
+        "broker": "Raymond James Financial",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 400,
+        "price": "10.96",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:06",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 48,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "140.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:07",
+        "broker": "National Planning Corporation",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 400,
+        "price": "30.71",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:08",
+        "broker": "LPL Financial",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 8000,
+        "price": "6.56",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:09",
+        "broker": "AXA Advisors",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 500,
+        "price": "40.01",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:10",
+        "broker": "Charles Schwab",
+        "sequence_id": 48,
+        "trade_type": "K",
+        "symbol": "BRIC",
+        "quantity": 300,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:11",
+        "broker": "TD Ameritrade",
+        "sequence_id": 48,
+        "trade_type": "K",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.11",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:54:12",
+        "broker": "Fidelity",
+        "sequence_id": 47,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 700,
+        "price": "6.90",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:10",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 93,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 30,
+        "price": "6.03",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:39",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 94,
+        "trade_type": "K",
+        "symbol": "YLLW",
+        "quantity": 1560,
+        "price": "10.80",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:40",
+        "broker": "LPL Financial",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 900,
+        "price": "30.69",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:41",
+        "broker": "National Planning Corporation",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 1400,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:42",
+        "broker": "Fidelity",
+        "sequence_id": 48,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 550,
+        "price": "11.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:44",
+        "broker": "Raymond James Financial",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "BRIC",
+        "quantity": 460,
+        "price": "30.70",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:46",
+        "broker": "TD Ameritrade",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 200,
+        "price": "11.30",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:47",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "10.95",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:49",
+        "broker": "Charles Schwab",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 600,
+        "price": "39.20",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:49",
+        "broker": "AXA Advisors",
+        "sequence_id": 49,
+        "trade_type": "2",
+        "symbol": "LGHT",
+        "quantity": 500,
+        "price": "98.77",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:50",
+        "broker": "Ameriprise Financial",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:51",
+        "broker": "Raymond James Financial",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "GLOO",
+        "quantity": 100,
+        "price": "40.02",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:52",
+        "broker": "LPL Financial",
+        "sequence_id": 50,
+        "trade_type": "K",
+        "symbol": "KRIL",
+        "quantity": 500,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:53",
+        "broker": "National Planning Corporation",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "BARK",
+        "quantity": 100,
+        "price": "1.19",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:54",
+        "broker": "Fidelity",
+        "sequence_id": 49,
+        "trade_type": "K",
+        "symbol": "LOUD",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:55",
+        "broker": "Charles Schwab",
+        "sequence_id": 50,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:55:58",
+        "broker": "AXA Advisors",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "KRIL",
+        "quantity": 300,
+        "price": "6.08",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:56:00",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 95,
+        "trade_type": "2",
+        "symbol": "VELL",
+        "quantity": 100,
+        "price": "12.00",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:57:50",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 96,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 100,
+        "price": "6.65",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:57:54",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 97,
+        "trade_type": "2",
+        "symbol": "CARD",
+        "quantity": 200,
+        "price": "6.68",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:58:50",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 98,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 400,
+        "price": "11.10",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:59:00",
+        "broker": "Fidelity",
+        "sequence_id": 50,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 500,
+        "price": "39.13",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:59:01",
+        "broker": "Charles Schwab",
+        "sequence_id": 51,
+        "trade_type": "2",
+        "symbol": "YLLW",
+        "quantity": 600,
+        "price": "11.11",
+        "side": "Sell"
+    },
+    {
+        "timestamp": "2017-10-05T10:59:40",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 99,
+        "trade_type": "K",
+        "symbol": "VELL",
+        "quantity": 200,
+        "price": "140.00",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:59:54",
+        "broker": "Edward Jones",
+        "sequence_id": 50,
+        "trade_type": "K",
+        "symbol": "LGHT",
+        "quantity": 100,
+        "price": "98.78",
+        "side": "Buy"
+    },
+    {
+        "timestamp": "2017-10-05T10:59:59",
+        "broker": "Wells Fargo Advisors",
+        "sequence_id": 100,
+        "trade_type": "2",
+        "symbol": "HOOF",
+        "quantity": 100,
+        "price": "39.12",
+        "side": "Sell"
+    }
+]

@@ -20,7 +20,7 @@ def _trade_factory(**kwargs):
         timestamp=datetime(2017, 2, 1, 8),
         broker="Broker 1",
         sequence_id=123,
-        trade_type=1,
+        trade_type="1",
         symbol="ABC",
         quantity=100,
         price=Decimal("9.99"),
@@ -60,6 +60,9 @@ def test_valid_broker():
 
 def test_trade_data_required():
     validator = TradeValidator(symbols=["ABC", "XYZ"], brokers=["Broker 1", "Broker2"])
+
+    trade = _trade_factory()
+    validator.validate_trade(trade)  # Test no error first
 
     with pytest.raises(MissingDataException):
         trade = _trade_factory(sequence_id=None)
@@ -115,11 +118,15 @@ def test_broker_tracker_throttle_limits():
 
 
 def test_broker_tracker_throttle_limits_same_timestamp():
-    trade00 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=1)
+    trade00 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=0)
+    trade01 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=1)
+    trade02 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=2)
+    trade03 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=3)
     tracker = BrokerTracker("Broker Name")
+
     # First 3 trades should be fine, 4th should error
     assert tracker.validate(trade00) == "1/3"
-    assert tracker.validate(trade00) == "2/3"
-    assert tracker.validate(trade00) == "3/3"
+    assert tracker.validate(trade01) == "2/3"
+    assert tracker.validate(trade02) == "3/3"
     with pytest.raises(ThrottleException):
-        tracker.validate(trade00)
+        tracker.validate(trade03)

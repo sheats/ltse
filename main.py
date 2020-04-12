@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
+import json
 import csv
+from json import JSONEncoder
+from decimal import Decimal
 from datetime import datetime
 
 from trade import Trade
@@ -12,6 +15,16 @@ from validator import (
     DuplicateTradeException,
     ThrottleException,
 )
+
+
+class TradeEncoder(JSONEncoder):
+    def default(self, o):
+        if isinstance(o, Trade):
+            return o.__dict__
+        if isinstance(o, datetime):
+            return o.isoformat()
+        if isinstance(o, Decimal):
+            return str(o.quantize(Decimal("0.01")))
 
 
 def _load_text_file(path):
@@ -46,11 +59,11 @@ def load_trades():
                 Trade(
                     timestamp=timestamp,
                     broker=row["broker"],
-                    sequence_id=row["sequence id"],
+                    sequence_id=int(row["sequence id"]),
                     trade_type=row["type"],
                     symbol=row["Symbol"],
-                    quantity=row["Quantity"],
-                    price=row["Price"],
+                    quantity=int(row["Quantity"]),
+                    price=Decimal(row["Price"]),
                     side=row["Side"],
                 )
             )
@@ -68,7 +81,7 @@ def main():
         try:
             validator.validate_trade(trade)
         except BaseTradeValidationException as exc:
-            print("Validation Error:", exc)
+            trade.reason = str(exc)  # will put reason in invalid.json below
             invalid.append(trade)
         else:
             valid.append(trade)
@@ -80,6 +93,13 @@ def main():
     with open("valid.txt", "w") as invalid_file:
         for trade in valid:
             invalid_file.write(f"{trade.broker} {trade.sequence_id}\n")
+
+    # Extra Credit
+    with open("invalid.json", "w") as invalid_json_file:
+        invalid_json_file.write(json.dumps(invalid, indent=4, cls=TradeEncoder))
+
+    with open("valid.json", "w") as valid_json_file:
+        valid_json_file.write(json.dumps(valid, indent=4, cls=TradeEncoder))
 
 
 if __name__ == "__main__":

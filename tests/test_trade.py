@@ -13,7 +13,7 @@ def test_is_valid():
         quantity=100,
         price=None,
         side="Buy",
-    ).is_valid()
+    ).is_valid()[0]
 
     assert not Trade(
         timestamp=datetime(2017, 2, 1, 8),
@@ -24,4 +24,4 @@ def test_is_valid():
         quantity=None,
         price=Decimal("9"),
         side="Buy",
-    ).is_valid()
+    ).is_valid()[0]

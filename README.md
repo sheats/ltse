@@ -21,4 +21,4 @@ source ./.env/bin/activate
 
 ### Notes:
 
-I noticed after awhile that a huge focus of my code and testing started to be focused on data validation.  Since the data being used is known I decided to stop focusing on data validation since it seems to be over-engineering for this excercise.  In a real system we'd def want validate all data coming in before sending it off to the trading system.
+I noticed after awhile that a huge focus of my code and testing started to be focused on data validation.  Since the data being used is known for this exercise I decided to stop focusing on data validation since it seems to be over-engineering for these requirements.  In a real system we'd def want validate all data coming in before sending it off to the trading system.

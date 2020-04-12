@@ -53,7 +53,8 @@ class BrokerTracker:
         # excercise since I can control it and in a real program the timestamps would
         # be generated based on the clock.
         # One edge case not handled here is two orders coming in at exactly the same time
-        # which in the world of HFT is very possible. That opens up a big can of worms.
+        # which in the world of HFT is very possible. Ignoring for now since that's not
+        # in the requirements but wanted to call it out.
         throttle_count = 1
         cutoff = trade.timestamp - timedelta(seconds=LIMIT_SECONDS)
         for previous_trade in self.trades:
@@ -84,7 +85,8 @@ class TradeValidator:
         if trade.symbol not in self.symbols:
             raise InvalidSymbolException(f"{trade.symbol} is not a valid symbol")
 
-        if trade.broker not in self.brokers:
-            raise InvalidBrokerException(f"{trade.broker} is not a valid broker")
+        broker_key = trade.broker.upper()
+        if broker_key not in self.brokers:
+            raise InvalidBrokerException(f"{trade.broker} is not a known broker")
 
-        self.brokers[trade.broker].validate(trade)
+        self.brokers[broker_key].validate(trade)
