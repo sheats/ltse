@@ -6,6 +6,9 @@ class Trade:
     """Simple data class to represent what we know about a trade.
     All trades need to be instantiated through this class since
     we strip and uppercase any strings for consistency.
+
+    All arguments are required and expected to be of the correct data format.
+
     """
 
     def __init__(
@@ -13,7 +16,7 @@ class Trade:
     ):
         self.timestamp = timestamp
         self.broker = broker.strip().upper()
-        self.sequency_id = sequence_id
+        self.sequence_id = sequence_id
         self.trade_type = trade_type
         self.symbol = symbol.strip().upper()
         self.quantity = quantity
@@ -22,7 +25,7 @@ class Trade:
 
     def is_valid(self):
         """All fields are required"""
-        for key, val in self.__dict__.items():
+        for val in self.__dict__.values():
             if not val:
                 return False
         return True
