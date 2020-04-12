@@ -5,23 +5,27 @@ THROTTLE_LIMIT = 3
 LIMIT_SECONDS = 60
 
 
-class MissingDataException(Exception):
+class BaseTradeValidationException(Exception):
     pass
 
 
-class InvalidSymbolException(Exception):
+class MissingDataException(BaseTradeValidationException):
     pass
 
 
-class InvalidBrokerException(Exception):
+class InvalidSymbolException(BaseTradeValidationException):
     pass
 
 
-class DuplicateTradeException(Exception):
+class InvalidBrokerException(BaseTradeValidationException):
     pass
 
 
-class ThrottleException(Exception):
+class DuplicateTradeException(BaseTradeValidationException):
+    pass
+
+
+class ThrottleException(BaseTradeValidationException):
     pass
 
 
@@ -40,24 +44,25 @@ class BrokerTracker:
         in format of '1/3' for 1 trade registered, 3 total allowed.
         """
         if trade.sequence_id in self.sequence_ids:
-            raise DuplicateTradeException()
+            raise DuplicateTradeException(
+                f"{trade.sequence_id} sequency id has already been processed."
+            )
 
         # This logic makes huge assumption that trades will always come in
         # in sequential timestamp order.  I would assume that is safe for this
-        # excercise and the real timestamps would probably be generated dynamically.
+        # excercise since I can control it and in a real program the timestamps would
+        # be generated based on the clock.
         # One edge case not handled here is two orders coming in at exactly the same time
-        # which in the world of HFT is very possible.
+        # which in the world of HFT is very possible. That opens up a big can of worms.
         throttle_count = 1
         cutoff = trade.timestamp - timedelta(seconds=LIMIT_SECONDS)
         for previous_trade in self.trades:
-            if previous_trade.timestamp == trade.timestamp:
-                raise Exception("Cannot handle identical timestamps")
             if previous_trade.timestamp <= cutoff:
                 break
             throttle_count += 1
 
         if throttle_count > THROTTLE_LIMIT:
-            raise ThrottleException()
+            raise ThrottleException("Exceded throttle limit")
 
         self.sequence_ids.append(trade.sequence_id)
         self.trades.insert(0, trade)
@@ -72,13 +77,14 @@ class TradeValidator:
             self.brokers[name.upper()] = BrokerTracker(name)
 
     def validate_trade(self, trade):
-        if not trade.is_valid():
-            raise MissingDataException()
+        is_valid, field = trade.is_valid()
+        if not is_valid:
+            raise MissingDataException(f"Trade missing value for field: {field}")
 
         if trade.symbol not in self.symbols:
-            raise InvalidSymbolException()
+            raise InvalidSymbolException(f"{trade.symbol} is not a valid symbol")
 
         if trade.broker not in self.brokers:
-            raise InvalidBrokerException()
+            raise InvalidBrokerException(f"{trade.broker} is not a valid broker")
 
         self.brokers[trade.broker].validate(trade)

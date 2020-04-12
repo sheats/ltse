@@ -1,6 +1,17 @@
 # -*- coding: utf-8 -*-
 import csv
-from .validator import TradeValidator
+from datetime import datetime
+
+from trade import Trade
+from validator import (
+    TradeValidator,
+    BaseTradeValidationException,
+    MissingDataException,
+    InvalidSymbolException,
+    InvalidBrokerException,
+    DuplicateTradeException,
+    ThrottleException,
+)
 
 
 def _load_text_file(path):
@@ -20,26 +31,55 @@ def load_brokers():
 
 
 def load_trades():
+    # Time stamp,broker,sequence id,type,Symbol,Quantity,Price,Side
     trades = []
     with open("data/trades.csv") as csv_file:
         reader = csv.DictReader(csv_file)
         for row in reader:
-            trades.append(row)
+            # Goofy datetime format, python doesn't seem to have a format code for
+            # not zero padded days.
+            # Also, Assuming it's oct 5 vs may 10 but no way to know
+            ts = row["Time stamp"].replace("/5/", "/05/")
+            timestamp = datetime.strptime(ts, "%m/%d/%Y %H:%M:%S")
+
+            trades.append(
+                Trade(
+                    timestamp=timestamp,
+                    broker=row["broker"],
+                    sequence_id=row["sequence id"],
+                    trade_type=row["type"],
+                    symbol=row["Symbol"],
+                    quantity=row["Quantity"],
+                    price=row["Price"],
+                    side=row["Side"],
+                )
+            )
+    trades.sort(key=lambda t: t.timestamp)
     return trades
 
 
 def main():
     valid_symbols = load_symbols()
     permitted_brokers = load_brokers()
-    trades = load_trades()
     validator = TradeValidator(valid_symbols, permitted_brokers)
-    for trade in trades:
-        validator.validate_trade(trade)
-    from pprint import pprint
+    valid = []
+    invalid = []
+    for trade in load_trades():
+        try:
+            validator.validate_trade(trade)
+        except BaseTradeValidationException as exc:
+            print("ERROR", exc)
+            invalid.append(trade)
+        else:
+            valid.append(trade)
 
-    pprint(valid_symbols)
-    pprint(permitted_brokers)
-    pprint(trades)
+    with open("invalid.txt", "w") as invalid_file:
+        for trade in invalid:
+            invalid_file.write(f"{trade.broker} {trade.sequence_id}\n")
+
+    with open("valid.txt", "w") as invalid_file:
+        for trade in valid:
+            invalid_file.write(f"{trade.broker} {trade.sequence_id}\n")
 
 
 if __name__ == "__main__":

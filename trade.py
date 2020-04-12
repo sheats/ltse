@@ -7,7 +7,7 @@ class Trade:
     All trades need to be instantiated through this class since
     we strip and uppercase any strings for consistency.
 
-    All arguments are required and expected to be of the correct data format.
+    All arguments are required and expected to be correct data types.
 
     """
 
@@ -25,7 +25,7 @@ class Trade:
 
     def is_valid(self):
         """All fields are required"""
-        for val in self.__dict__.values():
+        for key, val in self.__dict__.items():
             if not val:
-                return False
-        return True
+                return False, key
+        return True, ""

@@ -112,3 +112,14 @@ def test_broker_tracker_throttle_limits():
     assert tracker.validate(trade60) == "3/3"
     # And now all trades shold have dropped off
     assert tracker.validate(trade120) == "1/3"
+
+
+def test_broker_tracker_throttle_limits_same_timestamp():
+    trade00 = _trade_factory(timestamp=datetime(2020, 4, 1, 8, 1, 0), sequence_id=1)
+    tracker = BrokerTracker("Broker Name")
+    # First 3 trades should be fine, 4th should error
+    assert tracker.validate(trade00) == "1/3"
+    assert tracker.validate(trade00) == "2/3"
+    assert tracker.validate(trade00) == "3/3"
+    with pytest.raises(ThrottleException):
+        tracker.validate(trade00)
