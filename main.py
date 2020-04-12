@@ -54,7 +54,7 @@ def load_trades():
                     side=row["Side"],
                 )
             )
-    trades.sort(key=lambda t: t.timestamp)
+    trades.sort(key=lambda t: (t.timestamp, t.sequence_id))
     return trades
 
 
@@ -68,7 +68,7 @@ def main():
         try:
             validator.validate_trade(trade)
         except BaseTradeValidationException as exc:
-            print("ERROR", exc)
+            print("Validation Error:", exc)
             invalid.append(trade)
         else:
             valid.append(trade)

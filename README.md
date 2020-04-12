@@ -19,11 +19,6 @@ source ./.env/bin/activate
 ./.env/bin/py.test
 ```
 
-### Questions:
-    * Care about data validation?
-    * Extra credit -- I don't have a favorite "message format" -- what else can you tell me about the other system?
-    * Requirements don't say anything about invalid broker names -- will treat same as invalid symbols
-    * Also, firms.txt is missing newline between two firms: Wells Fargo AdvisorsWaddell & Reed -- should I go ahead and fix that?
-
 ### Notes:
-    I noticed after awhile that a huge focus of my code and testing started to be focused on data validation.  Since the data being used is known I decided to stop focusing on data validation since it seems to be over-engineering for this excercise.  In a real system we'd def want validate all data coming in before sending it off to the trading system.
+
+I noticed after awhile that a huge focus of my code and testing started to be focused on data validation.  Since the data being used is known I decided to stop focusing on data validation since it seems to be over-engineering for this excercise.  In a real system we'd def want validate all data coming in before sending it off to the trading system.

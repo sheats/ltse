@@ -7,5 +7,6 @@ Raymond James Financial
 AXA Advisors
 LPL Financial
 National Planning Corporation
-Wells Fargo AdvisorsWaddell & Reed
+Wells Fargo Advisors
+Waddell & Reed
 Transamerica Financial
