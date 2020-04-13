@@ -58,6 +58,8 @@ class BrokerTracker:
         throttle_count = 1
         cutoff = trade.timestamp - timedelta(seconds=LIMIT_SECONDS)
         for previous_trade in self.trades:
+            # TODO: Check if trade is allowed if exactly 60 seconds
+            # and write test accordingly
             if previous_trade.timestamp <= cutoff:
                 break
             throttle_count += 1
